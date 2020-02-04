@@ -40,8 +40,9 @@ function howLongIsMyString(str) {
     }else if (str === 'Mesuara') {
       return 67
     }
-    else (str !== 'Colin' || str !== 'Mesuara')
+    else {
     return 'I don\'t know that instructor!'
+    }
   }
 
 
